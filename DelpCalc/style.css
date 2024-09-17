@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1a23;
+    color: #ecd4be;
+}
+
+button{
+    border-radius: 12px;
+    border-width: 2px;
+    background-color: #0d1a23;
+    color: #ecd4be;
+    border-color: #ecd4be;
+    border-style: solid;
+}
+
+input{
+    border-radius: 12px;
+    border-width: 2px;
+    background-color: #0d1a23;
+    color: #ecd4be;
+    border-color: #ecd4be;
+    border-style: solid;
+
+}
+
+select{
+    border-radius: 12px;
+    border-width: 2px;
+    background-color: #0d1a23;
+    color: #ecd4be;
+    border-color: #ecd4be;
+    border-style: solid;
+}
+
+a:visited{
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  td {
+    font-size: 13px; /* Adjust font size for smaller screens */
+  }
+}

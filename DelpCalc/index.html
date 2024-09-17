@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Zelda Zonai devices Calculator</title>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6qBeDuqgXgwAAAAAAAAAAOeXcAHnl3An55dwYueXcGHnl3AkAAAAAAAAAAAAAAAA6qBeDOqgXg0AAAAA2KOHddiihXXw0bdk37GWb+eYbBu8ZwH9zqUB/Ne1APvXtAD7zaQB/LxoAf3nmGsZ1J1/d/HRt2TgrpJx3aiMdAAAAADfqYp05smvYt+niXi/hQH83LsA++3XSfrz4YL68+GL+u3XKfrbugD7voIB/d2pi3TkwKZm05d5egAAAAAAAAAAAAAAAOfGqWLWhmDA1rMA+/DbVPr78OP5/vb0+f729Pn78OH58NpV+tWxAPvimHKx3qmJcAAAAAAAAAAAAAAAAAAAAADonV0BvW0B/eHFAPv46Zf5/vf1+f77+fn++/n5/vf1+ffps/ngwwD7vG4B/dSDTwEAAAAAAAAAAAAAAAAAAAAAAAAAAL9wAfzkyAP6+Ou4+f749vn+/Pv5/vz7+f749vn46qP54cUA+717Af0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAVxev27kA+/ThY/r88/D5/vj2+f749vn88/D58+F1+tq4APvDVCOSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3ZRdfseLAfzkyAD68+Fw+vjrrvn465P58+Ft+uPHA/rGlwH80IhTewAAAAAAAAAAAAAAAAAAAAAAAAAAwHM9eOaiY2Xci12expUB/Nm3APvhxQT74cUA+9m2APvGlgH81oFUodqWWWa7djxsAAAAAAAAAAAAAAAAzbKjy+Kha2rUn2liyYtfceeYaR/nl3CRvGUB/bxsAf3nl3CM55lnH8iJXHLrsXlj4KJsZs+1psgAAAAAAAAAANaXbnPntodj261/ZNGQaHcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVlm904rSFY+O3iWLfpHpvAAAAANy2lp7cq4dr4buXYdmohGnTyMD+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA08jA/uCyjWfeuZVh5LOOaty2lpzOimqA6r+fZ+3JqmLYoYByAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADdq4tt5MSlYuG3mWjPi2qB3LWTkuS9oWfkv6JnzY5tfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1p1/duvMsGLhs5Zs3LWUkAAAAADuya5n47OWb+CTVwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOqgXgHu0rhi3qmKdAAAAAAAAAAA6qBeCOa5nm0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6s+3YuqgXgcAAAAA//8AAPgfAADwDwAA4AcAAOAHAADgBwAA4AcAAPAPAADwDwAAvD0AAP//AAB37gAAf/4AAH/+AAD//wAA//8AAA==" rel="icon" type="image/x-icon">    </head>
+    <body class="text">
+        <H1>Welcome to the Zonai devices calculator</H1>
+        <table>
+            <TR>
+                <td>How many wells (parts of a battery) do you have?</td>
+                <td><input type="number" name="A1" id="wells" value="15" max="48"></td>
+            </TR>
+            <TR>
+                <td>How many parts of the Zonai armor do you wear?</td>
+                <td>
+                    <select id="dropdown" name="dropdown">
+                        <option value="0" selected>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select> 
+                </td>           
+            </TR>
+            <tr>
+                <td>How many of this items do you use?</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><img src="./pictures/fan.png" width="75" height="75"></td>
+                <td>Item: Fan
+                <td>Count of items: </td>
+                <td><input type="number" name="A2" id="fans"value="0" max="20"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/flame.png" width="75" height="75"></td>
+                <td>Item: Flame Emitter</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A3" id="flame"value="0" max="20"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/frost.png" width="75" height="75"></td>
+                <td>Item: Frost Emitter</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A4" id="frost"value="0" max="20"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/shock.png" width="75" height="75"></td>
+                <td>Item: Shock Emitter</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A5" id="shock"value="0" max="20"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/beam.png" width="75" height="75"></td>
+                <td>Item: Beam Emitter</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="beam" value="0" max="20"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/hydrant.png" width="75" height="75"></td>
+                <td>Item: Hydrant</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="hydrant" value="0" max="20"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/bigWheel.png" width="75" height="75"></td>
+                <td>Item: Big Wheel</td>
+                <td>Count of Items: </td>
+                <td><input type="number" name="A6" id="bigWheel" value="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/smalWheel.png" width="75" height="75"></td>
+                <td>Item: Small Wheel</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="smallWheel" value="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/stabilizer.png" width="75" height="75"></td>
+                <td>Item: Stabilizer</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="stabilizer" value="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/hoverstone.png" width="75" height="75"></td>
+                <td>Item: Hoverstone</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="hoverstone" value="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/light.png" width="75" height="75"></td>
+                <td>Item: Light</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="light" value="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/constructHead.png" width="75" height="75"></td>
+                <td>Item: Construct Head</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="constructHead" value="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><img src="./pictures/homingCart.png" width="75" height="75"></td>
+                <td>Item: Homing Cart</td>
+                <td>Count of items: </td>
+                <td><input type="number" name="A6" id="homingCart" value="0" max="10"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Time you have: <div id="ausgabe"></div></td>
+            </tr>
+        </table>
+        <button onclick="javascript:main(wells, dropdown, fans, flame, frost, shock, beam, hydrant, bigWheel, smallWheel, stabilizer, hoverstone, light, constructHead, homingCart)">calc</button>
+        <button onclick="javascript:reset(wells, dropdown, fans, flame, frost, shock, beam, hydrant, bigWheel, smallWheel, stabilizer, hoverstone, light, constructHead, homingCart)">reset</button>
+        <footer>
+            <p>Based on the works of <a href="https://www.youtube.com/@paradox_guardian" target="_blank">Paradox Gaming</a></p>
+        </footer>
+    </body>
+</html>
